@@ -1,0 +1,52 @@
+/* CSS Document */
+body {
+  font-family: sans-serif;
+  background-color: #FFC4C4;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 50px;
+}
+p {
+  text-align: center;
+  margin-top: 30px;
+}
+.timer-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.timer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 10px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  border-radius: 5px;
+  padding: 20px;
+  width: 100px;
+}
+
+.timer span {
+  font-size: 30px;
+  font-weight: bold;
+  color: #333;
+}
+
+.smalltext {
+  font-size: 14px;
+  color: #666;
+  text-transform: uppercase;
+  margin-top: 5px;
+}
+
+#message {
+  text-align: center;
+  font-size: 40px;
+  margin-top: 50px;
+  display: none;
+}
+
